@@ -687,6 +687,7 @@ textarea {
   right: 0;
   top: 114px;
   text-align: center;
+  z-index: 999;
 }
 .header-menu li {
   display: block;
