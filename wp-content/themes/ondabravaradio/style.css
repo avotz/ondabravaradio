@@ -794,7 +794,7 @@ textarea {
 }
 .playlist iframe {
   height: 300px;
-  margin-top: -111px;
+  margin-top: -100px;
 }
 .playlist iframe b {
   color: #f00 !important;
@@ -854,6 +854,11 @@ textarea {
 .news-post-info p {
   margin-bottom: 0;
   font-size: 1.3rem;
+}
+@media only screen and (min-width: 768px) {
+  .playlist iframe {
+    margin-top: -111px;
+  }
 }
 @media only screen and (min-width: 960px) {
   .ads {
