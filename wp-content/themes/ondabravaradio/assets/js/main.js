@@ -66,12 +66,10 @@ $('.menu-item-4 a').magnificPopup({
 
  $(".owl-carousel").owlCarousel({
       items : 1,
-      autoplay:false,
-      autoplayTimeout:5000,
-      autoplayHoverPause:false,
-      loop : true
-      //nav : true,
-      //navText : ['','']
+      autoplay : true,
+      loop : true,
+      /*nav : true,
+      navText : ['','']*/
       /*onChange : function (e) {
         console.log(e.target);
         $('.owl-item.active span').addClass('animated');
