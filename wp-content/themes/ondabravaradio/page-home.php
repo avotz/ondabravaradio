@@ -9,7 +9,7 @@ get_header(); ?>
 
 			<div class="player-container">
 				<div class="player">
-					<span class="text-play">.Dale play para escuchar <i class="fa fa-play"></i></span>
+					<span class="text-play">Dale play para escuchar <i class="fa fa-play"></i></span>
 					<audio controls="" preload="none" autoplay="true"><source src="http://158.69.225.238:3040/Live" type="audio/mpeg"></audio>
 
 				</div>
