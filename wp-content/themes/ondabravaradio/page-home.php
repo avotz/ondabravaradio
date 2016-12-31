@@ -10,11 +10,11 @@ get_header(); ?>
 			<div class="player-container">
 				<div class="player">
 					<span class="text-play">Dale play para escuchar <i class="fa fa-play"></i></span>
-					<audio controls="" preload="none" autoplay="true"><source src="http://158.69.225.238:3040/Live" type="audio/mpeg"></audio>
+					<audio controls="" preload="none" autoplay="true"><source src="http://167.114.210.232:8221/Live" type="audio/mpeg"></audio>
 
 				</div>
 				<div id="playlist" class="playlist">
-					<iframe id="iframePlaylist"	src="http://moon.wavestreamer.com:3040/played.html" frameborder="0" scrolling="no"></iframe>
+					<iframe id="iframePlaylist"	src="http://167.114.210.232:8221/played.html?sid=1" frameborder="0" scrolling="no"></iframe>
 				</div>
 				<br />
 				<div class="tunein">
