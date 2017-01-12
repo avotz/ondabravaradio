@@ -24,10 +24,10 @@
 
 
 
-window.setInterval(function() {
+/*window.setInterval(function() {
   var iframe = document.getElementById('iframePlaylist');
    iframe.src = iframe.src;
-}, 30000);
+}, 30000);*/
 
  /*$.ajax({
       url: 'http://moon.wavestreamer.com:3040/currentsong',

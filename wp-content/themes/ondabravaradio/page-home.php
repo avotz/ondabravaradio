@@ -10,11 +10,16 @@ get_header(); ?>
 			<div class="player-container">
 				<div class="player">
 					<span class="text-play">Dale play para escuchar <i class="fa fa-play"></i></span>
-					<!--<audio controls="" preload="none" autoplay="true" style="display: none;"><source src="http://167.114.210.232:8221/Live" type="audio/mpeg"></audio>-->
-      <iframe id="flexible-radio-playing" src="http://api.mycloudserver.info/?apitype=flexibleradioplayer&lkey=1059_1679&skin=sq_BlkPnk" scrolling="no" frameborder="0" width="345" height="355"></iframe>
+					<audio controls="" preload="none" autoplay="true" ><source src="http://167.114.210.232:8221/Live" type="audio/mpeg"></audio>
+          <!--<div class="cc_player" data-skin="darkconsole" data-width="190" data-height="62" data-username="ritmodig">Cargando ...</div>
+          <div id="cc_recenttracks_ritmodig" class="cc_recenttracks_list">Cargando ...</div>
+          <script language="javascript" type="text/javascript" src="https://ca.radioboss.fm:2199/system/recenttracks.js"></script>
+          <script language="javascript" type="text/javascript" src="https://ca.radioboss.fm:2199/system/player.js"></script>-->
+      
+      <!--<iframe id="flexible-radio-playing" src="http://api.mycloudserver.info/?apitype=flexibleradioplayer&lkey=1059_1679&skin=sq_BlkPnk" scrolling="no" frameborder="0" width="345" height="355"></iframe>-->
 				</div>
 				<div id="playlist" class="playlist">
-					<!--<iframe id="iframePlaylist"	src="http://167.114.210.232:8221/played.html?sid=1" frameborder="0" scrolling="no"></iframe>-->
+					<iframe id="iframePlaylist"	src="http://167.114.210.232:8221/played.html?sid=1" frameborder="0" scrolling="no"></iframe>
 				</div>
 				<br />
 				<div class="tunein">
