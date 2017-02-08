@@ -206,6 +206,9 @@ textarea
 .player
 	text-align center
 	padding-top 100px
+	&-mobile
+		display none
+		text-align center
 .text-play
 	color white
 	font-size 1rem
@@ -216,6 +219,7 @@ textarea
 	overflow-y hidden
 	background-color rgba(0,0,0,.8)
 	display inline-block
+	
 	iframe
 		height 352px
 		margin-top -176px//-111px
@@ -305,3 +309,38 @@ textarea
 @media only screen and (min-width: 960px)
 	.footer
 		position absolute
+
+#rtmp-player {
+    position: relative;
+    left: 85px;
+    bottom: 5px;
+}
+#sm-button-container {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #0866BA;
+    border-radius: 26px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    background: #e6e6e6;
+    float: left;
+    cursor: pointer;
+    margin: auto;
+    transition: all 0.15s;
+}
+
+#audio-status-container {
+    width: 35px;
+    position: relative;
+    top: 8px;
+    left: 14px;
+    float: left;
+}
+#sm-audio-icon {
+    height: 25px !important;
+    width: auto;
+    cursor: pointer;
+    padding: 3px !important;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: all 0.15s;
+}

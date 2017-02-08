@@ -10,7 +10,20 @@ get_header(); ?>
 			<div class="player-container">
 				<div class="player">
 					<span class="text-play">Dale play para escuchar <i class="fa fa-play"></i></span>
-					<audio controls="" preload="none" autoplay="true" ><source src="http://167.114.210.232:8221/Live" type="audio/mpeg"></audio>
+          <div id="player">
+            <audio controls="" preload="none" autoplay="false" class="player-mobile"><source src="http://majestic.wavestreamer.com:7893/;" type="audio/aac"></audio>
+            <div id="rtmp-player">
+              <div id="sm-button-container" data-device-category="desktop" data-flash-mode="" data-url-static="/wp-content/themes/ondabravaradio/" data-start="Inicio" data-error="Error" data-loading="Cargando..." data-play="Sonar" data-stop="Parar">
+                <img src="<?php echo get_template_directory_uri();  ?>/img/player-icons/audio-stop.png" alt="Parar" id="sm-button-stop" class="sm-button" width="50" height="50" style="display: inline; padding: 26%;">
+              </div>
+                <input type="range" min="0" max="100" step="10" value="100" id="sm-volume-slider" />
+              <div id="audio-status-container">
+                <img src="https://cdn.webrad.io/images/player-icons/audio-on.png" width="35" data-state="On" height="50" id="sm-audio-icon">
+              </div>
+            </div>
+          
+          </div>
+					<!-- <audio controls="" preload="none" autoplay="true" ><source src="http://167.114.210.232:8221/Live" type="audio/mpeg"></audio> -->
           <!--<div class="cc_player" data-skin="darkconsole" data-width="190" data-height="62" data-username="ritmodig">Cargando ...</div>
           <div id="cc_recenttracks_ritmodig" class="cc_recenttracks_list">Cargando ...</div>
           <script language="javascript" type="text/javascript" src="https://ca.radioboss.fm:2199/system/recenttracks.js"></script>

@@ -41,12 +41,14 @@ gulp.task('js', function () {
       /*'./assets/js/vendor/jquery.uniform.js',*/
      /* './assets/js/vendor/jquery.onepagenav.js',
      /*'./assets/js/vendor/grid.js',*/
+     './assets/js/vendor/soundmanager2-jsmin.js',
+     './assets/js/vendor/rangeslider.min.js',
 
       './assets/js/main.js'
 
     ])
     //.pipe(browserify())
-    .pipe(uglify({ compress: true }))
+    //.pipe(uglify({ compress: true }))
     //.pipe(stripDebug())
     .pipe(concat('bundle.js'))
     .pipe(gulp.dest('./js'))
@@ -62,7 +64,7 @@ gulp.task('stylus', function () {
 });
 
 gulp.task('css', function () {
-  gulp.src(['./assets/css/main.css','./assets/css/magnific-popup.css','./assets/css/owl.carousel.css','./assets/css/animate.css','./fonts/font-awesome-4.1.0/css/font-awesome.min.css'/*,'./fonts/eleganticons/et-icons.css'*/])
+  gulp.src(['./assets/css/main.css','./assets/css/magnific-popup.css','./assets/css/owl.carousel.css','./assets/css/animate.css','./fonts/font-awesome-4.1.0/css/font-awesome.min.css','./assets/css/rangeslider.css'/*,'./fonts/eleganticons/et-icons.css'*/])
     /*.pipe(minifyCSS({ keepSpecialComments: '*', keepBreaks: '*'}))*/
     /*.pipe(cleanCSS({compatibility: 'ie8'}))*/
     .pipe(concat('style.css'))
