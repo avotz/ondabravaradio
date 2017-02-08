@@ -170,7 +170,7 @@ $('.menu-item-4 a').magnificPopup({
                     id: "webradio",
                               url: [{
                       type: "audio/aac",
-                      url: "http://majestic.wavestreamer.com:7893/;"
+                      url: "http://167.114.210.232:8221/;"// http://majestic.wavestreamer.com:7893/;"
                     }],
                     autoLoad: true,           autoPlay: true,           multiShot: false,           volume: volume,
                     onconnect: function( bConnect ) {
