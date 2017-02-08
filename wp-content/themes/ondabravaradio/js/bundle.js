@@ -3308,6 +3308,9 @@ g instanceof Function&&(g=g(K),g instanceof K&&(h.soundManager=g));return h.soun
       }else{
           $('.player-mobile').css('display','none');
           $('#rtmp-player ').show();
+           var audio = $(".player-mobile")[0];
+          
+            audio.pause();
       }       
 
   var $btnMenu = $('#btn-menu'),
