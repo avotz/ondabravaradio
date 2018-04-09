@@ -837,7 +837,7 @@ textarea {
 .player {
   position: absolute;
   left: 50%;
-  top: 65%;
+  top: 70%;
   max-width: 400px;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
@@ -854,7 +854,6 @@ textarea {
   padding: 0.5rem;
   display: inline-block;
   width: 100%;
-  color: #000;
   text-align: center;
   margin-top: 20px;
 }
