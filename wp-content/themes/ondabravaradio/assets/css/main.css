@@ -837,13 +837,13 @@ textarea {
 .player {
   position: absolute;
   left: 50%;
-  top: 75%;
+  top: 85%;
   max-width: 400px;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -85%);
+  -moz-transform: translate(-50%, -85%);
+  -o-transform: translate(-50%, -85%);
+  -ms-transform: translate(-50%, -85%);
+  transform: translate(-50%, -85%);
 }
 .player-mobile {
   text-align: center;
