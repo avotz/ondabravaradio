@@ -14,7 +14,7 @@ var gulp        = require('gulp'),
          /* server: {
             baseDir: "./"
           }*/
-          proxy: "ondabravaradio.dev"
+          proxy: "ondabravaradio.test"
       });
       
   });

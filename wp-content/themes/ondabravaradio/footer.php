@@ -11,11 +11,15 @@
 
 ?>
 
-	
+	<div class="current-song">
+      <div class="current-song-container">
+       <?php dynamic_sidebar('sidebar-current-song'); ?>
+      </div>
+    </div>
 
-	<footer id="colophon" class="footer" role="contentinfo">
+	<!-- <footer id="colophon" class="footer" role="contentinfo">
 		<span>Onda Brava © Diseñado por <a href="http://avotz.com"><i class="icon-avotz"></i></a>	</span>
-	</footer><!-- #colophon -->
+	</footer> -->
 
 <?php get_template_part( 'template-parts/float', 'contact' ); ?>
 

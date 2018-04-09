@@ -30,7 +30,10 @@
 <header class="header">
 		
 			
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="header-logo"><img src="<?php echo get_template_directory_uri();  ?>/img/logo.png" alt="Onda Brava Radio"></a>
+			<!-- <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="header-logo"><img src="<?php echo get_template_directory_uri();  ?>/img/logo.png" alt="Onda Brava Radio"></a> -->
+			<div class="tunein">
+				Escúchenos tambien en <a href="https://tunein.com/radio/Romantica-Estereo-1021-s305352/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/tunein.png" alt="Tune In Radio"></a>
+				</div>
 			<div class="header-social">
                 <a href="https://twitter.com/ondabravaradio" target="_blank" class="icon-twitter"></a>
                 <a href="https://www.facebook.com/radioondabrava" target="_blank" class="icon-facebook"></a>
@@ -60,31 +63,4 @@
 	<div class="number-header">
 		<i class="fa fa-phone"></i> Cabina (+506) 6053 1041
 	</div>
-	<section class="banner">
-		
-		<!--<div class="owl-carousel owl-theme">
-	  	  <div class="item" style="background-image: url('./img/banner1.jpg');">
-	  	  	<div class="inner">
-	  	  		<div class="item-info txt-center">
-	  	  			<h1>The best rate for</h1>
-	  	  			<p>Shuttle Services</p>
-	  	  			
-	  	  		</div>
-	  	  		
-	  	  	</div>
-	  	  </div>
-	  	  <div class="item" style="background-image: url('./img/banner2.jpg');">
-	  	  		<div class="inner">
-	  	  		<div class="item-info">
-	  	  			<span >Full day tours</span>
-	  	  			<span >Half day tours</span>
-	  	  			<span >Water Sports</span>
-	  	  		</div>
-	  	  		
-	  	  		
-	  	  	</div>
-	  	  </div>
-	  	  	  
-		</div>-->
-		
-	</section>
+	

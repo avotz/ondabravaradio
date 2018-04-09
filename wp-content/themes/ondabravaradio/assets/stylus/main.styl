@@ -117,12 +117,12 @@ textarea
 		margin-left 1rem
 		display block
 	&-menu
-		display none
+		//display none
 		position absolute
 		background-color oscuro
 		left 0
 		right 0
-		top 114px
+		top 126px
 		text-align center
 		z-index 999
 		li 
@@ -137,9 +137,8 @@ textarea
 		
 		
 	&-social
-		float right
-		margin-right 1rem
-		margin-top 8px
+		margin-top 0
+		text-align: center
 		a 
 			display inline-block
 			color white
@@ -148,7 +147,7 @@ textarea
 			&:hover
 				color rojo
 	&-btn-menu
-		display block
+		display none
 		background-color rojo
 		color white
 		text-align center
@@ -159,9 +158,12 @@ textarea
 		right 0
 		width 100%
 		font-size 2rem
-@media only screen and (min-width: 400px)
+@media only screen and (min-width: 540px)
 	.header
 		&-social
+			float right
+			margin-right 1rem
+			margin-top 8px
 			a
 				font-size 1.5rem 
 @media only screen and (min-width: 690px)
@@ -186,7 +188,7 @@ textarea
 	position absolute
 	right 0
 	left 0
-	top 114px
+	top 96px
 	padding 0 .3rem
 	text-align center
 	font-size 14px
@@ -199,116 +201,117 @@ textarea
 	height auto
 	min-height 100%
 	padding-top 65px
-.player-container
-	text-align center
-	max-width 450px
-	margin 0 auto
-.player
-	text-align center
-	padding-top 100px
-	&-mobile
-		display none
+
+
+.banner
+	background-image: url('./img/music-wallpaper-discount-texture-red-media.png');
+	background-size auto, 
+	background-repeat repeat, 
+	background-position center center
+	height 100vh
+	&-logo 
+		background-color black
+		display inline-block
+		border-radius 50%
+		max-width 370px
+		max-height: 370px
+		height: 370px
+		margin-bottom 1rem
+	&-container
+		height 100vh
+		display flex
+		justify-content center
+		align-items center
+	&-info
 		text-align center
-.text-play
-	color white
-	font-size 1rem
-	background-color rgba(0,0,0,.8)
-	padding .5rem
-	display inline-block
-.playlist
-	overflow-y hidden
-	background-color rgba(0,0,0,.8)
-	display inline-block
-	
-	iframe
-		height 352px
-		margin-top -176px//-111px
-		b 
-			color red !important
-		table
-			display none
-	
+		max-width 750px
+		color white
+	h1 
+		margin-bottom 2rem
+		color white
+		font-size 3rem
+	p 
+		font-size 1.5rem
+
 .tunein
-	color #FFF
-	font-size 1.5em
-	background rgba(0,0,0,.8)
+	color white
+	font-size 1em
+	//background rgba(0,0,0,.8)
 	padding .5em
-	text-align center
+	//text-align center
 	display inline-block
 
 	img
 		display inline-block
 		vertical-align middle
-.ads
-	margin-top 1rem
-	bottom 1rem
-	left 1rem
-	right 1rem
-	margin-bottom 1rem
-	.owl-carousel
-		max-width 727px
-		
-.news
-	width 100%
-	margin-top 1em
-	padding 1rem
-	background-color rgba(0,0,0,.8)
-	color white
-	a 
-		color white
-		position absolute
-		top 0
-		bottom 0
-		left 0
-		right 0
-		display block
-		z-index 100
-	&-post 
-		&-image
-			max-width 768px
-			//height 316px
-			img 
-				width 100%
-				display block
-		&-info
-			margin-top .5rem
-			p 
-				margin-bottom 0
-				font-size 1.3rem
-@media only screen and (min-width: 768px)
-	.playlist
-		iframe
-			margin-top -176px
-@media only screen and (min-width: 960px)
-	.ads
-		position absolute
-		margin-bottom 0
-	.text-play
-		display none
-	.player-container
-		float left
-		margin-left 1rem
-	.news
-		float right
-		width 40%
-		margin-top 100px
+.player
+	position absolute
+	left 50%
+	top 65%
+	max-width: 400px;
+	transform: translate(-50%, -50%)
+	&-mobile
+		//display none
+		text-align center
 
-.footer
-	color white
-	font-size 14px
-	right 1rem
-	bottom 0
-	text-align center
-	a 
+	.text-play
 		color white
-		font-size 2rem
+		font-size 1rem
+		//background-color rgba(0,0,0,.8)
+		padding .5rem
 		display inline-block
-		vertical-align middle
+		width: 100%;
+		color: black;
+		text-align: center;
+		margin-top: 20px;
+	
+	li 
+		border-bottom 1px solid #e3e3e3
+		&:last-child
+			border none
+	a 
+		display block
+		padding 1rem
+		color verde
+		text-align center
 		&:hover
-			color rojo
-@media only screen and (min-width: 960px)
-	.footer
-		position absolute
+			color celeste
+			background-color #eeeeee
+
+		i 
+			display block
+			font-size 1.2rem
+		span
+			display inline-block
+			color #3a2b14
+.current-song
+	position: fixed
+	bottom: 0
+	left 0
+	right: 0
+	background-color: black
+	color:white
+	text-align: center
+	line-height: 20px;
+	font-size: 1.2rem;
+
+	&-container
+		padding: 1rem 0
+
+@media screen and (min-width: 768px)
+	.player
+		.text-play
+			display none
+	.tunein
+		font-size: 1.5rem
+
+	.current-song
+		font-size: 1.5rem
+
+.contact-popup
+	h2 
+		margin-bottom: 1rem
+
 
 #rtmp-player {
     position: relative;
@@ -344,3 +347,150 @@ textarea
     border-radius: 10px;
     transition: all 0.15s;
 }
+	
+		
+// .player-container
+// 	text-align center
+// 	max-width 450px
+// 	margin 0 auto
+// .player
+// 	text-align center
+// 	padding-top 100px
+// 	&-mobile
+// 		display none
+// 		text-align center
+// .text-play
+// 	color white
+// 	font-size 1rem
+// 	background-color rgba(0,0,0,.8)
+// 	padding .5rem
+// 	display inline-block
+// .playlist
+// 	overflow-y hidden
+// 	background-color rgba(0,0,0,.8)
+// 	display inline-block
+	
+// 	iframe
+// 		height 352px
+// 		margin-top -176px//-111px
+// 		b 
+// 			color red !important
+// 		table
+// 			display none
+	
+// .tunein
+// 	color #FFF
+// 	font-size 1.5em
+// 	background rgba(0,0,0,.8)
+// 	padding .5em
+// 	text-align center
+// 	display inline-block
+
+// 	img
+// 		display inline-block
+// 		vertical-align middle
+// .ads
+// 	margin-top 1rem
+// 	bottom 1rem
+// 	left 1rem
+// 	right 1rem
+// 	margin-bottom 1rem
+// 	.owl-carousel
+// 		max-width 727px
+		
+// .news
+// 	width 100%
+// 	margin-top 1em
+// 	padding 1rem
+// 	background-color rgba(0,0,0,.8)
+// 	color white
+// 	a 
+// 		color white
+// 		position absolute
+// 		top 0
+// 		bottom 0
+// 		left 0
+// 		right 0
+// 		display block
+// 		z-index 100
+// 	&-post 
+// 		&-image
+// 			max-width 768px
+// 			//height 316px
+// 			img 
+// 				width 100%
+// 				display block
+// 		&-info
+// 			margin-top .5rem
+// 			p 
+// 				margin-bottom 0
+// 				font-size 1.3rem
+// @media only screen and (min-width: 768px)
+// 	.playlist
+// 		iframe
+// 			margin-top -176px
+// @media only screen and (min-width: 960px)
+// 	.ads
+// 		position absolute
+// 		margin-bottom 0
+// 	.text-play
+// 		display none
+// 	.player-container
+// 		float left
+// 		margin-left 1rem
+// 	.news
+// 		float right
+// 		width 40%
+// 		margin-top 100px
+
+// .footer
+// 	color white
+// 	font-size 14px
+// 	right 1rem
+// 	bottom 0
+// 	text-align center
+// 	a 
+// 		color white
+// 		font-size 2rem
+// 		display inline-block
+// 		vertical-align middle
+// 		&:hover
+// 			color rojo
+// @media only screen and (min-width: 960px)
+// 	.footer
+// 		position absolute
+
+// #rtmp-player {
+//     position: relative;
+//     left: 85px;
+//     bottom: 5px;
+// }
+// #sm-button-container {
+//     width: 36px;
+//     height: 36px;
+//     border: 1px solid #0866BA;
+//     border-radius: 26px;
+//     box-shadow: 0 0 10px rgba(0,0,0,0.3);
+//     background: #e6e6e6;
+//     float: left;
+//     cursor: pointer;
+//     margin: auto;
+//     transition: all 0.15s;
+// }
+
+// #audio-status-container {
+//     width: 35px;
+//     position: relative;
+//     top: 8px;
+//     left: 14px;
+//     float: left;
+// }
+// #sm-audio-icon {
+//     height: 25px !important;
+//     width: auto;
+//     cursor: pointer;
+//     padding: 3px !important;
+//     border: 1px solid transparent;
+//     border-radius: 10px;
+//     transition: all 0.15s;
+// }
