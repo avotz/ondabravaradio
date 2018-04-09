@@ -769,11 +769,6 @@ textarea {
     top: 74px;
   }
 }
-.main {
-  height: auto;
-  min-height: 100%;
-  padding-top: 65px;
-}
 .banner {
   background-image: url("./img/music-wallpaper-discount-texture-red-media.png");
   -webkit-background-size: auto, background-repeat repeat, background-position center center;
@@ -837,13 +832,13 @@ textarea {
 .player {
   position: absolute;
   left: 50%;
-  top: 85%;
+  top: 60%;
   max-width: 400px;
-  -webkit-transform: translate(-50%, -85%);
-  -moz-transform: translate(-50%, -85%);
-  -o-transform: translate(-50%, -85%);
-  -ms-transform: translate(-50%, -85%);
-  transform: translate(-50%, -85%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 .player-mobile {
   text-align: center;
@@ -897,7 +892,7 @@ textarea {
 }
 @media screen and (min-width: 768px) {
   .player {
-    top: 65%;
+    top: 60%;
   }
   .player .text-play {
     display: none;
