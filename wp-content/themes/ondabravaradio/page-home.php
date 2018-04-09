@@ -9,7 +9,7 @@ get_header(); ?>
       <div class="player-container">
        <?php dynamic_sidebar('sidebar-player'); ?>
 
-        <span class="text-play">Dale play para escuchar <i class="fa fa-play"></i></span>
+       
           <div id="player">
             <audio controls preload="none" autoplay class="player-mobile"><source src="http://167.114.210.232:8221/;" type="audio/aac"></audio>
             <!-- <div id="rtmp-player">
@@ -23,6 +23,7 @@ get_header(); ?>
             </div> -->
           
           </div>
+           <span class="text-play">Dale play para escuchar <i class="fa fa-play"></i></span>
 
       </div>
     </div>
