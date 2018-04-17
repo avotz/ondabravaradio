@@ -32,7 +32,7 @@
 			
 			<!-- <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="header-logo"><img src="<?php echo get_template_directory_uri();  ?>/img/logo.png" alt="Onda Brava Radio"></a> -->
 			<div class="tunein">
-				Escúchenos tambien en <a href="https://tunein.com/radio/Romantica-Estereo-1021-s305352/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/tunein.png" alt="Tune In Radio"></a>
+				Escúchenos tambien en <a href="http://tunein.com/station/?StationId=110194" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/tunein.png" alt="Tune In Radio"></a>
 				</div>
 			<div class="header-social">
                 <a href="https://twitter.com/ondabravaradio" target="_blank" class="icon-twitter"></a>
