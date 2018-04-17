@@ -22,7 +22,7 @@
 <link rel="manifest" href="<?php echo get_template_directory_uri();  ?>/img/favicons/manifest.json">
 <link rel="mask-icon" href="<?php echo get_template_directory_uri();  ?>/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="theme-color" content="#ffffff">
-
+<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 <?php wp_head(); ?>
 </head>
 
@@ -36,10 +36,11 @@
 				</div>
 			<div class="header-social">
                 <a href="https://twitter.com/ondabravaradio" target="_blank" class="icon-twitter"></a>
-                <a href="https://www.facebook.com/radioondabrava" target="_blank" class="icon-facebook"></a>
+                <a href="https://www.facebook.com/radioondabrava" target="_blank" class="fab fa-facebook"></a>
                 <!--<a href="https://plus.google.com/u/0/106393867091599207273/" target="_blank" class="icon-googleplus"></a>-->
                 <a href="https://www.youtube.com/user/OndaBravaRadio" target="_blank" class="icon-youtube"></a>
                 <a href="http://tunein.com/station/?StationId=110194" target="_blank" class="icon-tunein"></a>
+				 <a href="#" target="_blank" class="fab fa-instagram"></a>
 
 
             </div>
