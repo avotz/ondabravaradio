@@ -39,8 +39,9 @@
                 <a href="https://www.facebook.com/radioondabrava" target="_blank" class=""><i class="fab fa-facebook"></i></a>
                 <!--<a href="https://plus.google.com/u/0/106393867091599207273/" target="_blank" class="icon-googleplus"></a>-->
                 <a href="https://www.youtube.com/user/OndaBravaRadio" target="_blank" class=""><i class="fab fa-youtube"></i></a>
-                <a href="http://tunein.com/station/?StationId=110194" target="_blank" class=""><i class="fab fa-tunein"></i></a>
-				 <a href="#" target="_blank" class=""><i class="fab fa-instagram"></i></a>
+                <a href="http://tunein.com/station/?StationId=110194" target="_blank" class=""><i class="icon-tunein"></i></a>
+				 <a href="https://www.instagram.com/ondabrava/" target="_blank" class=""><i class="fab fa-instagram"></i></a>
+				  <a href="https://api.whatsapp.com/send?phone=50660531041" target="_blank" class=""><i class="fab fa-whatsapp"></i></a>
 
 
             </div>
