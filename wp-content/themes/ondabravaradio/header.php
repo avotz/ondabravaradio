@@ -35,12 +35,12 @@
 				Escúchenos tambien en <a href="http://tunein.com/station/?StationId=110194" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/tunein.png" alt="Tune In Radio"></a>
 				</div>
 			<div class="header-social">
-                <a href="https://twitter.com/ondabravaradio" target="_blank" class="icon-twitter"></a>
-                <a href="https://www.facebook.com/radioondabrava" target="_blank" class="fab fa-facebook"></a>
+                <a href="https://twitter.com/ondabravaradio" target="_blank" class=""><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/radioondabrava" target="_blank" class=""><i class="fab fa-facebook"></i></a>
                 <!--<a href="https://plus.google.com/u/0/106393867091599207273/" target="_blank" class="icon-googleplus"></a>-->
-                <a href="https://www.youtube.com/user/OndaBravaRadio" target="_blank" class="icon-youtube"></a>
-                <a href="http://tunein.com/station/?StationId=110194" target="_blank" class="icon-tunein"></a>
-				 <a href="#" target="_blank" class="fab fa-instagram"></a>
+                <a href="https://www.youtube.com/user/OndaBravaRadio" target="_blank" class=""><i class="fab fa-youtube"></i></a>
+                <a href="http://tunein.com/station/?StationId=110194" target="_blank" class=""><i class="fab fa-tunein"></i></a>
+				 <a href="#" target="_blank" class=""><i class="fab fa-instagram"></i></a>
 
 
             </div>
