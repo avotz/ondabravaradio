@@ -75,25 +75,46 @@
 });*/
  
 
-$('.menu-item-4 a').magnificPopup({
+// $('.menu-item-4 a').magnificPopup({
+//         type: 'inline',
+//         midClick: true,
+//         removalDelay: 500, //delay removal by X to allow out-animation
+//         callbacks: {
+//             beforeOpen: function() {
+
+//                 this.st.mainClass = 'mfp-zoom-out';
+//                 $('body').addClass('mfp-open');
+//             },
+//             beforeClose: function() {
+
+               
+//                 $('body').removeClass('mfp-open');
+//             }
+
+//         }
+
+       
+//     });
+
+    $('.contact-link').magnificPopup({
         type: 'inline',
         midClick: true,
         removalDelay: 500, //delay removal by X to allow out-animation
         callbacks: {
-            beforeOpen: function() {
+            beforeOpen: function () {
 
                 this.st.mainClass = 'mfp-zoom-out';
                 $('body').addClass('mfp-open');
             },
-            beforeClose: function() {
+            beforeClose: function () {
 
-               
+
                 $('body').removeClass('mfp-open');
             }
 
         }
 
-       
+
     });
 
 

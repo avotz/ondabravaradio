@@ -42,6 +42,7 @@
                 <a href="http://tunein.com/station/?StationId=110194" target="_blank" class=""><i class="icon-tunein"></i></a>
 				 <a href="https://www.instagram.com/ondabrava/" target="_blank" class=""><i class="fab fa-instagram"></i></a>
 				  <a href="https://api.whatsapp.com/send?phone=50660531041" target="_blank" class=""><i class="fab fa-whatsapp"></i></a>
+				<a href="#contact" class="contact-link"><i class="fas fa-envelope"></i></a>
 
 
             </div>
@@ -62,7 +63,7 @@
 	         
 		
 	</header>
-	<div class="number-header">
+	<!-- <div class="number-header">
 		<i class="fa fa-phone"></i> Cabina (+506) 6053 1041
-	</div>
+	</div> -->
 	
