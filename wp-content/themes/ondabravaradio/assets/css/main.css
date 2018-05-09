@@ -707,9 +707,16 @@ textarea {
   display: inline-block;
   color: #fff;
   padding: 0.5rem;
+  vertical-align: middle;
 }
 .header-social a:hover {
   color: #e23333;
+}
+.header-social .icon-romantica {
+  height: 50px;
+}
+.header-social .icon-romantica img {
+  height: 100%;
 }
 .header-btn-menu {
   display: none;

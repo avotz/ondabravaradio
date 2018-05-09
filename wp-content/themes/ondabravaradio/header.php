@@ -35,6 +35,7 @@
 				Escúchenos tambien en <a href="http://tunein.com/station/?StationId=110194" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/tunein.png" alt="Tune In Radio"></a>
 				</div>
 			<div class="header-social">
+				 <a href="http://romanticaestereo.com/" class="icon-romantica" title="Romantica Estereo"><img src="<?php echo get_template_directory_uri(); ?>/img/romantica-icon.png" alt="Romantica Estereo"></a>
                 <a href="https://twitter.com/ondabravaradio" target="_blank" class=""><i class="fab fa-twitter"></i></a>
                 <a href="https://www.facebook.com/radioondabrava" target="_blank" class=""><i class="fab fa-facebook"></i></a>
                 <!--<a href="https://plus.google.com/u/0/106393867091599207273/" target="_blank" class="icon-googleplus"></a>-->
