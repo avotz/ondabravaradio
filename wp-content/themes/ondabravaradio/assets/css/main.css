@@ -914,6 +914,17 @@ textarea {
 .contact-popup h2 {
   margin-bottom: 1rem;
 }
+.copyright {
+  color: #e23333;
+  position: absolute;
+  right: 1rem;
+  font-size: 2.5rem;
+  z-index: 2;
+  bottom: 8px;
+}
+.copyright a {
+  color: #e23333;
+}
 #rtmp-player {
   position: relative;
   left: 85px;
