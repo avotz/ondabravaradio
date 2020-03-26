@@ -117,22 +117,26 @@
 
     });
 
-
- $(".owl-carousel").owlCarousel({
-      items : 1,
-      autoplay : true,
-      loop : true,
-      /*nav : true,
-      navText : ['','']*/
-      /*onChange : function (e) {
-        console.log(e.target);
-        $('.owl-item.active span').addClass('animated');
-        $('.owl-item.active h1').addClass('animated');
-      }*/
-      /*slideSpeed : 300,
-      paginationSpeed : 400,*/
-      /*singleItem:true*/
- });
+    $('.anuncio-slider').slick({
+      autoplay: true,
+      autoplaySpeed: 2000,
+      arrows: false,
+    });
+//  $(".owl-carousel").owlCarousel({
+//       items : 1,
+//       autoplay : true,
+//       loop : true,
+//       /*nav : true,
+//       navText : ['','']*/
+//       /*onChange : function (e) {
+//         console.log(e.target);
+//         $('.owl-item.active span').addClass('animated');
+//         $('.owl-item.active h1').addClass('animated');
+//       }*/
+//       /*slideSpeed : 300,
+//       paginationSpeed : 400,*/
+//       /*singleItem:true*/
+//  });
 
  // SMOOTH ANCHOR SCROLLING
     var $root = jQuery('html, body');
