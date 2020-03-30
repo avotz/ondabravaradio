@@ -838,6 +838,9 @@ textarea {
   display: inline-block;
   vertical-align: middle;
 }
+.slick-slide img {
+  display: inline-block !important;
+}
 .player-mobile {
   text-align: center;
 }
