@@ -819,6 +819,7 @@ textarea {
   max-width: 750px;
   padding-top: 120px;
   color: #fff;
+  width: 100%;
 }
 .banner h1 {
   margin-bottom: 2rem;
