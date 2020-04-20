@@ -571,11 +571,6 @@ body.page {
   background-position: center center;
   background-repeat: no-repeat;
 }
-@media only screen and (min-width: 960px) {
-  body {
-    overflow-y: hidden;
-  }
-}
 ul {
   margin: 0;
   padding: 0;
@@ -841,6 +836,9 @@ textarea {
 .slick-slide img {
   display: inline-block !important;
 }
+.player {
+  padding-bottom: 4rem;
+}
 .player-mobile {
   text-align: center;
 }
@@ -852,30 +850,6 @@ textarea {
   width: 100%;
   text-align: center;
   margin-top: 0;
-}
-.player li {
-  border-bottom: 1px solid #e3e3e3;
-}
-.player li:last-child {
-  border: none;
-}
-.player a {
-  display: block;
-  padding: 1rem;
-  color: verde;
-  text-align: center;
-}
-.player a:hover {
-  color: celeste;
-  background-color: #eee;
-}
-.player a i {
-  display: block;
-  font-size: 1.2rem;
-}
-.player a span {
-  display: inline-block;
-  color: #3a2b14;
 }
 .current-song {
   position: fixed;
