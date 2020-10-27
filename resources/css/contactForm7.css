@@ -1,0 +1,37 @@
+.wpcf7-form p{
+    @apply mb-4
+}
+.wpcf7-form label{
+    @apply text-gray-900;
+    @apply mb-2;
+}
+.wpcf7-form-control.wpcf7-submit{
+    @apply bg-red-600;
+    @apply text-white;
+    @apply py-2;
+    @apply px-4;
+    @apply cursor-pointer;
+}
+.wpcf7-form-control.wpcf7-submit:hover{
+    @apply bg-black;
+    @apply text-red-600;
+}
+.wpcf7-form-control.wpcf7-text, .wpcf7-form-control.wpcf7-textarea{
+    @apply appearance-none;
+    @apply rounded-none;
+    @apply block;
+    @apply w-full;
+    @apply px-3;
+    @apply py-2;
+    @apply border;
+    @apply border-gray-300;
+    @apply text-gray-900;
+
+
+}
+.wpcf7-form-control.wpcf7-textarea{
+    @apply h-32;
+}
+.wpcf7-not-valid-tip{
+    @apply text-sm;
+}
