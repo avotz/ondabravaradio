@@ -198,3 +198,8 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+
+/**
+ * Load Custom Post Types and field.
+ */
+require get_template_directory() . '/inc/cpt.php';
