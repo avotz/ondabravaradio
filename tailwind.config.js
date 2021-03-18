@@ -1,20 +1,17 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-    future: {
-        removeDeprecatedGapUtilities: true,
-        purgeLayersByDefault: true,
-        defaultLineHeights: true,
-        standardFontWeights: true,
-      },
     purge: [
         './**/*.php',
+        './**/*.html',
     ],
-
     theme: {
         extend: {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+            },
+            boxShadow: {
+                'red-blur': '0 0 15px 10px rgba(244, 77, 97, 1)',
             },
             minHeight: {
                 adap: 'calc(100vh - 127px)',
@@ -28,5 +25,8 @@ module.exports = {
         opacity: ['responsive', 'hover', 'focus', 'disabled'],
     },
 
-    plugins: [require('@tailwindcss/ui')],
+    plugins: [
+        require('@tailwindcss/forms'),
+       // require('@tailwindcss/typography'),
+    ],
 };

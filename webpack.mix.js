@@ -15,8 +15,13 @@ mix.js('resources/js/app.js', 'js')
     .postCss('resources/css/app.css', 'style.css', [
         require('postcss-import'),
         require('tailwindcss'),
+        require('autoprefixer'),
     ])
     .options({
         processCssUrls: false  
     })
-    .webpackConfig(require('./webpack.config'));
+    .setPublicPath('./');
+
+    if (mix.inProduction()) {
+        mix.version();
+    }
