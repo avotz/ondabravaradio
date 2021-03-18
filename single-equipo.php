@@ -23,7 +23,7 @@ get_header('equipo');
 					<div class="mx-auto relative w-32 h-32 mb-8 s">
 						<?php the_post_thumbnail('medium',[ 'class' => 'absolute w-full h-full object-cover rounded-full shadow-red-blur ']); ?>
 					</div>
-					<div class="px-8 mb-8 text-white">
+					<div class="px-8 mb-6 text-white">
 					<?php 
 						the_title( '<h1 class="text-2xl uppercase mb-4 font-bold">', '</h1>' ); 
 				
