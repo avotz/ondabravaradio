@@ -18,6 +18,7 @@ get_header();
 	<main id="primary" class="site-main">
 
 		<div class="flex flex-col items-center justify-center min-h-adap">
+			<a href="<?php echo esc_url(home_url('/concurso-pbcl')); ?>" class="mt-4 mb-4 text-4xl text-white bg-blue-800 hover:bg-blue-600 px-6 py-3 rounded" rel="noopener noreferrer">Concurso PBCL</a>
 			<a href="#" class="w-64 "><img src="<?php echo get_template_directory_uri(); ?>/img/logo-ondabrava.png" alt="Ondabrava Radio" class="object-cover"></a>
 			<div class="mt-4 w-full">
 				<?php get_template_part( 'template-parts/banner'); ?>

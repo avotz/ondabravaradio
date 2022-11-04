@@ -1,5 +1,6 @@
 console.log('cargado')
 import './simpleModal.js';
+import './simpleModalPromotion.js';
 import Glide from '@glidejs/glide'
 
 new Glide('.glide', {

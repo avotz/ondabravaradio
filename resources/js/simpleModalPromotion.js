@@ -1,8 +1,8 @@
 import dynamics from 'dynamics.js'
 
-var btnOpen = select('.js-open');
-var btnClose = select('.js-close');
-var modal = select('.js-modal');
+var btnOpen = select('.js-modal-pro-open');
+var btnClose = select('.js-modal-pro-close');
+var modal = select('.js-modal-pro');
 
 var modalChildren = modal.children;
 

@@ -26,6 +26,8 @@ if ($items->have_posts()) {
                 'img' => esc_url($thumb_url[0]),
                 'title' => $post->post_title,
                 'url' => rwmb_meta('rw_anuncio_url') ? rwmb_meta('rw_anuncio_url') : '',
+                'classes' => rwmb_meta('rw_anuncio_url_classes') ? rwmb_meta('rw_anuncio_url_classes') : '',
+                'target' => rwmb_meta('rw_anuncio_url_target') ? rwmb_meta('rw_anuncio_url_target') : '_blank',
               ];
                 
               
@@ -53,7 +55,7 @@ if ($items->have_posts()) {
     <?php foreach($slides as $slide) : ?>
         <li class="glide__slide h-full flex flex-col items-center justify-center text-center px-4">
         <?php if($slide['url']) : ?>
-          <a href="<?= $slide['url'] ?>" target="_blank" rel="noopener noreferrer">
+          <a href="<?= $slide['url'] ?>" class="<?= $slide['classes'] ?>" target="<?= $slide['target'] ?>" rel="noopener noreferrer">
             <img src="<?= $slide['img'] ?>" alt="<?= $slide['title'] ?>" class="object-cover">
           </a>
         <?php else: ?>

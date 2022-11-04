@@ -1,0 +1,23 @@
+.wpcf7-form p{
+    @apply mb-4
+}
+.wpcf7-form label{
+    @apply text-white;
+}
+.wpcf7-form-control.wpcf7-submit{
+    @apply bg-[#2E9D35];
+    @apply text-white rounded;
+}
+.wpcf7-form-control.wpcf7-submit:hover{
+    @apply bg-green-800;
+    @apply text-white;
+}
+.wpcf7-form-control.wpcf7-text, .wpcf7-form-control.wpcf7-textarea{
+    @apply rounded-full text-blue-900 pl-12;
+}
+.wpcf7-response-output{
+    @apply text-white;
+}
+.icon-field{
+    @apply relative after:absolute after:left-2 after:top-1 after:w-8 z-10 block w-8;
+}

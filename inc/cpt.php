@@ -13,8 +13,18 @@ function ondabravaradio_register_meta_boxes( $meta_boxes ) {
 		'fields' => array(
 			array(
 				'id' => $prefix . 'anuncio_url',
-				'type' => 'url',
+				'type' => 'text',
 				'name' => esc_html__( 'URL', 'ondabravaradio' ),
+			),
+			array(
+				'id' => $prefix . 'anuncio_url_classes',
+				'type' => 'text',
+				'name' => esc_html__( 'Clases', 'ondabravaradio' ),
+			),
+			array(
+				'id' => $prefix . 'anuncio_url_target',
+				'type' => 'text',
+				'name' => esc_html__( 'Target', 'ondabravaradio' ),
 			),
 		),
 	);
