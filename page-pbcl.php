@@ -8,7 +8,7 @@
  * different template.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- * Template Name: Page Promotion
+ * Template Name: Page Pbcl
  * @package ondabravaradio
  */
 
@@ -21,12 +21,16 @@ get_header();
 			<div class="bg-white/60 w-32 h-10 absolute top-0 rounded-b-xl"></div>
 			<h2 class="text-white uppercase my-8">Formulario</h2>
 			<?php dynamic_sidebar('sidebar-promotion'); ?>
-			
+			<div class="mt-4 bg-gradient-to-b from-green-900 to-green-500 px-4 text-white text-lg text-center rounded-2xl mb-6 shadow-2xl">
+				<p>Gracias por participar</p>
+				<p>¡Te Deseamos mucha suerte!</p>
+		
+			</div>
 			<div>
-				<img src="<?php echo get_template_directory_uri();  ?>/img/logo-ondabrava.png" alt="Ondabrava Radio" class="w-32">
+				<img src="<?php echo get_template_directory_uri();  ?>/img/pbcl-logo.png" alt="PBCL">
 			</div>
 			<div class="absolute right-4 bottom-1">
-				
+				<a href="<?php echo get_template_directory_uri();  ?>/img/Reglamento-PBCL.pdf" download class="text-white hover:underline">Ver Reglamento</a>
 			</div>
 		</div>
 

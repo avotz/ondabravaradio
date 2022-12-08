@@ -15,9 +15,10 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
+<main id="primary" class="site-main bg-white py-4">
 
-		<?php
+<div class="container mx-auto flex flex-col items-center justify-center min-h-adap p-8 bg-cover bg-center bg-no-repeat relative rounded-3xl">
+<?php
 		while ( have_posts() ) :
 			the_post();
 
@@ -30,9 +31,11 @@ get_header();
 
 		endwhile; // End of the loop.
 		?>
+</div>
 
-	</main><!-- #main -->
+</main><!-- #main -->
+
 
 <?php
-get_sidebar();
+//get_sidebar();
 get_footer();

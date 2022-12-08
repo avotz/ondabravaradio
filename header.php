@@ -33,13 +33,16 @@
 
 
 	<header class="site-header bg-black text-white flex flex-wrap justify-between items-center py-4 px-2">
-		<div class="site-branding text-2xl align-middle hidden md:block">
+		
+		<div class="site-branding text-2xl align-middle hidden md:flex">
+			<a href="<?php echo esc_url(home_url('/')); ?>" class="w-14 mr-4"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-ondabrava.png" alt="Ondabrava Radio" class="object-cover"></a>
 		    Escuchenos tambien en <a href="http://tunein.com/station/?StationId=110194" class="text-white" rel="noopener noreferrer" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="56 56 200 88" class="w-24 fill-current inline-block"><style>.st0{display:none}</style><g id="Logos"><g id="Logo__x2013__Horizontal_1A_12_"><path d="M95 96.8v4c0 .4-.4.8-.8.8h-5c-.2 0-.4.2-.4.4v21.2c0 .4-.4.8-.8.8h-4c-.4 0-.8-.4-.8-.8V102c0-.2-.2-.4-.4-.4h-5c-.4 0-.8-.4-.8-.8v-4c0-.4.4-.8.8-.8h16.4c.4 0 .8.4.8.8zm22-.8h-4c-.4 0-.8.4-.8.8v18.8c0 1.8-1.4 3.2-3.9 3.2-2.4 0-3.8-1.4-3.8-3.2V96.8c0-.4-.4-.8-.8-.8h-4c-.4 0-.8.4-.8.8v18.8c0 4.8 4 8.8 9.4 8.8 5.5 0 9.5-4 9.5-8.8V96.8c0-.4-.4-.8-.8-.8zm22.6 0h-4c-.4 0-.8.4-.8.8v15c0 .2-.3.3-.4.1l-5.5-15.2c-.1-.4-.4-.7-1-.7h-4.8c-.4 0-.8.4-.8.8v26.4c0 .4.4.8.8.8h4c.4 0 .8-.4.8-.8v-13.8c0-.2.3-.3.4-.1l5.4 14c.1.3.4.7 1.1.7h4.7c.4 0 .8-.4.8-.8V96.8c.1-.4-.3-.8-.7-.8zm20.7 22.4h-9.5c-.2 0-.4-.2-.4-.4v-4.8c0-.2.2-.4.4-.4h9c.4 0 .8-.4.8-.8v-4c0-.4-.4-.8-.8-.8h-9c-.2 0-.4-.2-.4-.4V102c0-.2.2-.4.4-.4h9.3c.4 0 .8-.4.8-.8v-4c0-.4-.4-.8-.8-.8h-14.5c-.4 0-.8.4-.8.8v26.4c0 .4.4.8.8.8h14.7c.4 0 .8-.4.8-.8v-4c0-.4-.4-.8-.8-.8zM256 59v62c0 1.7-1.3 3-3 3h-69v17c0 1.7-1.3 3-3 3H59c-1.7 0-3-1.3-3-3V79c0-1.7 1.3-3 3-3h119V59c0-1.7 1.3-3 3-3h72c1.7 0 3 1.3 3 3zm-78 23H62.5c-.3 0-.5.2-.5.5v55c0 .3.2.5.5.5h115c.3 0 .5-.2.5-.5V82zm35.8 17.4c0-.4-.4-.8-.8-.8h-3.4c-.2 0-.4-.2-.4-.4V81.8c0-.2.2-.4.4-.4h3c.4 0 .8-.4.8-.8v-3.8c0-.4-.4-.8-.8-.8h-12.4c-.4 0-.8.4-.8.8v3.8c0 .4.4.8.8.8h3c.2 0 .4.2.4.4v16.4c0 .2-.2.4-.4.4h-3.4c-.4 0-.8.4-.8.8v3.8c0 .4.4.8.8.8H213c.4 0 .8-.4.8-.8v-3.8zm22.4-22.6c0-.4-.4-.8-.8-.8h-4c-.4 0-.8.4-.8.8v15c0 .2-.3.3-.4.1l-5.5-15.2c-.1-.4-.4-.7-1-.7H219c-.4 0-.8.4-.8.8v26.4c0 .4.4.8.8.8h4c.4 0 .8-.4.8-.8V89.4c0-.2.3-.3.4-.1l5.4 14c.1.3.4.7 1.1.7h4.7c.4 0 .8-.4.8-.8V76.8z"  id="Logo_2_"/></g></g></svg></a>
 			
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation w-full md:w-auto">
 			<div class="flex space-x-4 sm:space-x-6 items-center justify-center">
+				<a href="<?php echo esc_url(home_url('/')); ?>" class="w-8 md:hidden"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-ondabrava.png" alt="Ondabrava Radio" class="object-cover"></a>
 				<a href="http://romanticaestereo.com/" class="icon-romantica w-4 md:w-6" title="Romantica Estereo"><img src="<?php echo get_template_directory_uri(); ?>/img/romantica-icon-white.png" alt="Romantica Estereo"></a>
 
 				<a href="https://www.facebook.com/radioondabrava" class="text-white hover:text-red-500" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-6 sm:w-6 fill-current" viewBox="0 0 24 24"><path d="M9 8H6v4h3v12h5V12h3.642L18 8h-4V6.333C14 5.378 14.192 5 15.115 5H18V0h-3.808C10.596 0 9 1.583 9 4.615V8z"/></svg></a>
